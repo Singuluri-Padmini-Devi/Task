@@ -1,0 +1,16 @@
+const TASK_CONSTANTS = {
+  STATUS: {
+    TODO: 'TODO',
+    IN_PROGRESS: 'IN_PROGRESS',
+    COMPLETED: 'COMPLETED'
+  },
+  PRIORITY: {
+    LOW: 'LOW',
+    MEDIUM: 'MEDIUM',
+    HIGH: 'HIGH'
+  },
+  DEFAULT_PAGE_SIZE: 10,
+  MAX_PAGE_SIZE: 100
+};
+
+module.exports = TASK_CONSTANTS;
